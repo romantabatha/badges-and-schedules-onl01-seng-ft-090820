@@ -6,7 +6,7 @@ def batch_badge_creator(attendees)
   new_array =[]
   #attendees = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
  attendees.each do |name|
-  new_array << "Hello, my name is #{name}" 
+  new_array << "Hello, my name is #{name}." 
  end
  new_array
 end
