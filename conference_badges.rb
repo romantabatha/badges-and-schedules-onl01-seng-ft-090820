@@ -1,14 +1,13 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+ "Hello, my name is #{name}."
 end
 
-attendees = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-
-def batch_badge_creator
-  attendees.each {|name| puts "Hello, my name is #{name}"}
+def batch_badge_creator(attendees)
+  attendees = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
+ attendees.each {|name|"Hello, my name is #{attendees}"}
 end
 
-def assign_rooms
+def assign_rooms(rooms)
   rooms = [1,2,3,4,5,6,7]
-  puts "Hello, #{attendees.index}! You'll be assigned to room #{rooms.index}!"
+ "Hello, #{attendees.index}! You'll be assigned to room #{rooms.index}!"
 end
